@@ -14,7 +14,7 @@ namespace Basics2
             double ladoB;
             double resultado;
 
-            Console.WriteLine("Calcule el área de un rectángulo ingresando los valores de los lados");
+            Console.WriteLine("Calcule el área de un rectángulo ingresando los valores de los lados. Puede manejar decimales si quiere...");
             Console.WriteLine("Digite el valor del lado 1: ");
             ladoA = Convert.ToDouble(Console.ReadLine());
 
