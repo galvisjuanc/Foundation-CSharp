@@ -19,7 +19,7 @@ namespace Basics4
 
             radio = Convert.ToDouble(Console.ReadLine());
 
-            resultado = Pi * Math.Pow(radio,2);
+            resultado = Math.PI * Math.Pow(radio,2);
 
             Console.WriteLine("El área de tu circulo es de: " + resultado);
         }
