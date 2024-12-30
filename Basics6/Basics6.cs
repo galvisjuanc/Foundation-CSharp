@@ -23,6 +23,9 @@ namespace Basics6
 
             bool resultNot = !valor1;
             Console.WriteLine(resultNot);
+
+            bool resultXor = valor1 ^ valor2 ^ valor3;
+            Console.WriteLine(resultXor);
         }
     }
 }
