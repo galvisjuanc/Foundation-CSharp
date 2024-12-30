@@ -42,11 +42,11 @@ namespace Basics5
             variable2--;
             Console.WriteLine("El decremento del valor 2 es: " + variable2);
 
-            //++variable1;
-            //--variable2;
+            ++variable1;
+            --variable2;
 
-            //Console.WriteLine("El incremento del valor 1 es: " + variable1);
-            //Console.WriteLine("El decremento del valor 2 es: " + variable2);
+            Console.WriteLine("El incremento del valor 1 es: " + variable1);
+            Console.WriteLine("El decremento del valor 2 es: " + variable2);
 
             Console.ReadKey();
 
