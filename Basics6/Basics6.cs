@@ -10,9 +10,7 @@ namespace Basics6
     {
         static void Main(string[] args)
         {
-            bool valor1 = true;
-            bool valor2 = false;
-            bool valor3 = true;
+            var (valor1, valor2, valor3) = (true, false, false);
 
             bool resultAnd = valor1 && valor2 && valor3;
             Console.WriteLine(resultAnd);
@@ -22,6 +20,9 @@ namespace Basics6
 
             bool resultAndOr = (valor1 && valor2) || valor3;
             Console.WriteLine(resultAndOr);
+
+            bool resultNot = !valor1;
+            Console.WriteLine(resultNot);
         }
     }
 }
