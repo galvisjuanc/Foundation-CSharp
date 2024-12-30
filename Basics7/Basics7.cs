@@ -24,6 +24,12 @@ namespace Basics7
 
             bool resultado4 = valor1 > valor2;
             Console.WriteLine("EL resultado de la comparación valor1 > valor2 es: " + resultado4);
+
+            bool resultado5 = valor2 <= valor3;
+            Console.WriteLine("EL resultado de la comparación valor2 <= valor3 es: " + resultado5);
+
+            bool resultado6 = valor2 >= valor3;
+            Console.WriteLine("EL resultado de la comparación valor2 >= valor3 es: " + resultado6);
         }
     }
 }
