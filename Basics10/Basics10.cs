@@ -10,9 +10,14 @@ namespace Basics10
     {
         static void Main(string[] args)
         {
-            char letra;
+            char letra = 'e';
             Console.WriteLine("Elige una letra de las siguientes para recibir un mensaje: a, b, c, d");
-            letra = Convert.ToChar(Console.ReadLine());
+            try {
+                letra = Convert.ToChar(Console.ReadLine());
+            } catch (Exception ex)  {
+                Console.WriteLine(ex.ToString());
+            }
+
 
             switch (letra)
             {
