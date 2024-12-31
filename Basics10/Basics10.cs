@@ -22,7 +22,7 @@ namespace Basics10
             switch (letra)
             {
                 case 'a':
-                    Console.WriteLine("Eres una chimbita");
+                    Console.WriteLine("Eres muy melo");
                     break;
                 case 'b':
                     Console.WriteLine("Pasala bien con tu familia");
