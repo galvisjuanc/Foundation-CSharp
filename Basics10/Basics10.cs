@@ -11,7 +11,7 @@ namespace Basics10
         static void Main(string[] args)
         {
             char letra = 'e';
-            Console.WriteLine("Elige una letra de las siguientes para recibir un mensaje: a, b, c, d");
+            Console.WriteLine("Elige una letra de las siguientes para recibir un mensaje de fin de año: a, b, c, d");
             try {
                 letra = Convert.ToChar(Console.ReadLine());
             } catch (Exception ex)  {
