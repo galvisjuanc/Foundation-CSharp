@@ -34,7 +34,7 @@ namespace Basics10
                     Console.WriteLine("Sigue tus sueños");
                     break;
                 default:
-                    Console.WriteLine("Letra errada");
+                    Console.WriteLine("Letra errada. Fin del programa");
                     break;
             }
         }
