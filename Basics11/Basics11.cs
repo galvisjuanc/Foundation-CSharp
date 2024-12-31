@@ -16,6 +16,8 @@ namespace Basics11
             numero = Convert.ToInt32(Console.ReadLine());
             final = contador * 11;
 
+            Console.WriteLine($"La tabla de multiplicar del {numero} es: ");
+
             while (contador < final)
             {
                 calculo = numero * contador;
