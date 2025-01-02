@@ -12,7 +12,7 @@ namespace Basics12
         {
             var (numero, resultado) = (0,0);
             Console.WriteLine("Tabla de Multiplicar usando un for");
-            Console.WriteLine("Digite el número del cuál desea la tabla: ");
+            Console.WriteLine("Digite el número: ");
             numero = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("La tabla es: ");
