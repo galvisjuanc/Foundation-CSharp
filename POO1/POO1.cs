@@ -10,7 +10,7 @@ namespace POO1
     {
         static void Main(string[] args)
         {
-
+            Apuntador apuntador = new Apuntador();
         }
     }
 }
