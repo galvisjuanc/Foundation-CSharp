@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Apuntador.cs" />
+    <Compile Include="SuperHeroe.cs" />
     <Compile Include="POO1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
