@@ -8,13 +8,11 @@ namespace POO1
 {
     class SuperHeroe
     {
-        private int Id;
-        private string Nombre;
-        private string IdentidadSecreta;
-        private string Ciudad;
-        private string[] SuperPoderes;
-        private bool PuedeVolar;
-
-
+        private int Id { get; set; }
+        private string Nombre { get; set; }
+        private string IdentidadSecreta { get; set; }
+        private string Ciudad { get; set; }
+        private string[] SuperPoderes { get; set; }
+        private bool PuedeVolar { get; set; }
     }
 }
