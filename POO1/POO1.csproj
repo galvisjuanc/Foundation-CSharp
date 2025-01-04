@@ -46,6 +46,7 @@
     <Compile Include="SuperHeroe.cs" />
     <Compile Include="POO1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SuperPoder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
