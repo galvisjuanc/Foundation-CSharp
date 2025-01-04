@@ -12,7 +12,7 @@ namespace POO1
         public string Nombre { get; set; }
         public string IdentidadSecreta { get; set; }
         public string Ciudad { get; set; }
-        public string[] SuperPoderes { get; set; }
+        public List<SuperPoder> SuperPoderes { get; set; }
         public bool PuedeVolar { get; set; }
     }
 }
