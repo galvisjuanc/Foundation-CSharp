@@ -16,12 +16,20 @@ namespace POO1
             poderVolar.Descripcion = "Capacidad para volar y planear en el aire";
             poderVolar.Nivel = NivelPoder.NivelDos;
 
+            var superFuerza = new SuperPoder();
+            superFuerza.Nombre = "Super Fuerza";
+            superFuerza.Descripcion = "Habilidad para vencer facil";
+            superFuerza.Nivel = NivelPoder.NivelTres;
+
             superHeroe.Id = 1;
             superHeroe.Nombre = "Spiderman";
             superHeroe.IdentidadSecreta = "Peter Parker";
             superHeroe.Ciudad = "New York";
             superHeroe.PuedeVolar = false;
-            superHeroe.SuperPoderes = new[] { "Lanzar telaraña", "Super fuerza" };
+
+            List<SuperPoder> poderesSpiderman = new List<SuperPoder>();
+            poderesSpiderman.Add(superFuerza);
+            superHeroe.SuperPoderes = poderesSpiderman;
         }
     }
 }

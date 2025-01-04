@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace POO1
 {
-    internal class SuperPoder
-    {
+    internal class SuperPoder {
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public NivelPoder Nivel { get; set; }
     }
 
-    enum NivelPoder
-    {
+    enum NivelPoder {
         NivelUno,
         NivelDos,
         NivelTres
