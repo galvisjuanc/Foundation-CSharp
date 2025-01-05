@@ -35,6 +35,7 @@ namespace POO1
 
             List<SuperPoder> poderesSpiderman = new List<SuperPoder>();
             poderesSpiderman.Add(superFuerza);
+            poderesSpiderman.Add(superSentido);
             superHeroe.SuperPoderes = poderesSpiderman;
         }
     }
