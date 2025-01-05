@@ -27,7 +27,7 @@ namespace POO1
             superSentido.Descripcion = "Habilidad para detectar ataques enemigos";
             superSentido.Nivel = NivelPoder.NivelUno;
 
-            superHeroe.Id = 1;
+            superHeroe.Id = 2;
             superHeroe.Nombre = "Spiderman";
             superHeroe.IdentidadSecreta = "Peter Parker";
             superHeroe.Ciudad = "New York";
