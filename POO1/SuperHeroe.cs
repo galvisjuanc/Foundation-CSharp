@@ -14,5 +14,12 @@ namespace POO1
         public string Ciudad { get; set; }
         public List<SuperPoder> SuperPoderes { get; set; }
         public bool PuedeVolar { get; set; }
+
+        public SuperHeroe()
+        {
+            Id = 1;
+            SuperPoderes = new List<SuperPoder>();
+            PuedeVolar = false;
+        }
     }
 }
