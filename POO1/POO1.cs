@@ -11,6 +11,7 @@ namespace POO1
         static void Main(string[] args)
         {
             SuperHeroe superHeroe = new SuperHeroe();
+
             var poderVolar = new SuperPoder();
             poderVolar.Nombre = "Volar";
             poderVolar.Descripcion = "Capacidad para volar y planear en el aire";
@@ -20,6 +21,11 @@ namespace POO1
             superFuerza.Nombre = "Super Fuerza";
             superFuerza.Descripcion = "Habilidad para vencer facil";
             superFuerza.Nivel = NivelPoder.NivelTres;
+
+            var superSentido = new SuperPoder();
+            superSentido.Nombre = "Super Sentido";
+            superSentido.Descripcion = "Habilidad para detectar ataques enemigos";
+            superSentido.Nivel = NivelPoder.NivelUno;
 
             superHeroe.Id = 1;
             superHeroe.Nombre = "Spiderman";
