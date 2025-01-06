@@ -37,6 +37,8 @@ namespace POO1
             poderesSpiderman.Add(superFuerza);
             poderesSpiderman.Add(superSentido);
             superHeroe.SuperPoderes = poderesSpiderman;
+
+            superHeroe.UsarSuperPoderes();
         }
     }
 }

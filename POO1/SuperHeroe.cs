@@ -21,5 +21,12 @@ namespace POO1
             SuperPoderes = new List<SuperPoder>();
             PuedeVolar = false;
         }
+
+        public void UsarSuperPoderes() {
+            foreach (var itemPoder in SuperPoderes)
+            {
+                Console.WriteLine($"{Nombre} está usando el super poder {itemPoder.Nombre}");
+            }
+        }
     }
 }
