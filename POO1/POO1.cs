@@ -24,7 +24,7 @@ namespace POO1
 
             var superSentido = new SuperPoder();
             superSentido.Nombre = "Super Sentido";
-            superSentido.Descripcion = "Habilidad para detectar ataques enemigos";
+            superSentido.Descripcion = "Habilidad para detectar ataques enemigos multiples";
             superSentido.Nivel = NivelPoder.NivelUno;
 
             superHeroe.Id = 2;
