@@ -6,5 +6,4 @@ SuperHeroeRecord superHeroeRecord2 = new(1, "Superman", "Clark Kent");
 
 Console.WriteLine(superHeroeRecord == superHeroeRecord2);
 
-
 public record SuperHeroeRecord(int Id, string Nombre, string IdentidadSecreta);
