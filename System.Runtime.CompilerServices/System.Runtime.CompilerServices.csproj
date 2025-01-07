@@ -4,15 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{848A06BB-E14F-4AA0-9C42-27DA1AA517BF}</ProjectGuid>
+    <ProjectGuid>{AF67CBA2-B49D-45AB-8990-ED3B61F3AF01}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>POO1</RootNamespace>
-    <AssemblyName>POO1</AssemblyName>
+    <RootNamespace>System.Runtime.CompilerServices</RootNamespace>
+    <AssemblyName>System.Runtime.CompilerServices</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -44,10 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SuperHeroe.cs" />
-    <Compile Include="POO1.cs" />
+    <Compile Include="IsExternalInit.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SuperPoder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
