@@ -19,7 +19,7 @@ namespace POO1
 
             var superFuerza = new SuperPoder();
             superFuerza.Nombre = "Super Fuerza";
-            superFuerza.Descripcion = "Habilidad para vencer facil";
+            superFuerza.Descripcion = "Habilidad para romper paredes facil";
             superFuerza.Nivel = NivelPoder.NivelTres;
 
             var superSentido = new SuperPoder();
