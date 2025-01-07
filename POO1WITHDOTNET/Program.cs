@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+// Console.WriteLine("Hello, World!");
 
 SuperHeroeRecord superHeroeRecord = new(1, "Superman", "Clark Kent");
 SuperHeroeRecord superHeroeRecord2 = new(1, "Superman", "Clark Kent");
