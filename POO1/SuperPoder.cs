@@ -11,8 +11,7 @@ namespace POO1
         public string Descripcion { get; set; }
         public NivelPoder Nivel { get; set; }
 
-        public SuperPoder()
-        {
+        public SuperPoder() {
             Nivel = NivelPoder.NivelUno;
         }
     }

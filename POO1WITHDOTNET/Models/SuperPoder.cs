@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace POO1WITHDOTNET.Models
 {
-    internal class SuperPoder
-    {
+    internal class SuperPoder {
+        public string Nombre { get; set; }
+        public string Descripcion { get; set; }
+        public NivelPoder Nivel { get; set; }
+
+        public SuperPoder() {
+            Nivel = NivelPoder.NivelUno;
+        }
+    }
+
+    enum NivelPoder {
+        NivelUno,
+        NivelDos,
+        NivelTres
     }
 }
