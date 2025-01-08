@@ -38,7 +38,5 @@ namespace POO1
 
             return stringBuilder.ToString();
         }
-
-        //public record SuperHeroeRecord(int Id, string Nombre, string IdentidadSecreta);
     }
 }
