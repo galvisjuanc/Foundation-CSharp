@@ -14,6 +14,14 @@ namespace POO1WITHDOTNET.Models
             get {return _Nombre;}
             set { _Nombre = value.Trim(); }
         }
+
+        public string NombreEIdentidadSecreta 
+        {
+            get 
+            {
+                return $"{Nombre} ({IdentidadSecreta})";
+            } 
+        }
         public string IdentidadSecreta { get; set; }
         public string Ciudad { get; set; }
         public List<SuperPoder> SuperPoderes { get; set; }
@@ -32,7 +40,7 @@ namespace POO1WITHDOTNET.Models
         {
             foreach (var itemPoder in SuperPoderes)
             {
-                Console.WriteLine($"{Nombre} está usando el super poder {itemPoder.Nombre}");
+                Console.WriteLine($"{NombreEIdentidadSecreta} está usando el super poder {itemPoder.Nombre}");
             }
         }
 
