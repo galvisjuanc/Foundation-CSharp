@@ -9,11 +9,17 @@ namespace POO1WITHDOTNET.Models
     internal class SuperHeroe
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
+        public string Nombre
+        {
+            get {return _Nombre;}
+            set { _Nombre = value.Trim(); }
+        }
         public string IdentidadSecreta { get; set; }
         public string Ciudad { get; set; }
         public List<SuperPoder> SuperPoderes { get; set; }
         public bool PuedeVolar { get; set; }
+        
+        private string _Nombre;
 
         public SuperHeroe()
         {
