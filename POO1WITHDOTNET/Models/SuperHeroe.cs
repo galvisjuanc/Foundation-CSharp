@@ -49,7 +49,7 @@ namespace POO1WITHDOTNET.Models
             StringBuilder stringBuilder = new StringBuilder();
             foreach (var superPoder in SuperPoderes)
             {
-                stringBuilder.AppendLine($"{Nombre} está usando el super poder {superPoder.Nombre}");
+                stringBuilder.AppendLine($"{NombreEIdentidadSecreta} está usando el super poder {superPoder.Nombre}");
             }
 
             return stringBuilder.ToString();
