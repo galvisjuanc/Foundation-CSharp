@@ -12,6 +12,11 @@ poderVolar.Nombre = "Volar";
 poderVolar.Descripcion = "Capacidad para volar y planear en el aire";
 poderVolar.Nivel = NivelPoder.NivelUno;
 
+var superFuerza = new SuperPoder();
+superFuerza.Nombre = "SuperFuerza";
+superFuerza.Descripcion = "Extremadamente fuerte";
+superFuerza.Nivel = NivelPoder.NivelDos;
+
 var regeneracion = new SuperPoder();
 regeneracion.Nombre = "Regeneracion";
 regeneracion.Descripcion = "Habilidad para no sufrir daños permanentes";
@@ -23,7 +28,12 @@ wolverine.Nombre = "Wolverine";
 wolverine.IdentidadSecreta = "Logan";
 wolverine.PuedeVolar = false;
 
-
+List<SuperPoder> poderesWolverine = new List<SuperPoder>();
+poderesWolverine.Add(superFuerza);
+poderesWolverine.Add(regeneracion);
+wolverine.SuperPoderes = poderesWolverine;
+string resultSuperPoderes = wolverine.UsarPoderesSuper();
+Console.WriteLine(resultSuperPoderes);
 
 
 public record SuperHeroeRecord(int Id, string Nombre, string IdentidadSecreta);
