@@ -12,4 +12,7 @@ poderVolar.Nombre = "Volar";
 poderVolar.Descripcion = "Capacidad para volar y planear en el aire";
 poderVolar.Nivel = NivelPoder.NivelUno;
 
+var wolverine = new AntiHeroe();
+wolverine.Id = 5;
+
 public record SuperHeroeRecord(int Id, string Nombre, string IdentidadSecreta);
