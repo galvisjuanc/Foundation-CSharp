@@ -8,6 +8,8 @@ namespace POO1WITHDOTNET.Models
 {
     internal abstract class Heroe
     {
-        public abstract String salvarElMundo();
+        public abstract string Nombre { get; set; }
+        
+        public abstract string salvarElMundo();
     }
 }
