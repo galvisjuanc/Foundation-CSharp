@@ -9,7 +9,7 @@ namespace POO1WITHDOTNET.Models
     internal class SuperHeroe : Heroe
     {
         public int Id { get; set; }
-        public string Nombre
+        public override string Nombre
         {
             get {return _Nombre;}
             set { _Nombre = value.Trim(); }
