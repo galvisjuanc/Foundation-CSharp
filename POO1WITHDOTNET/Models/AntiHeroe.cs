@@ -10,7 +10,7 @@ namespace POO1WITHDOTNET.Models
     {
         public string RealizarAccionDeAntiHeroe(string accion)
         {
-            return $"El {new AntiHeroe().Nombre} está realizando la accion: {accion}";
+            return $"El AntiHeroe está realizando la accion: {accion}";
         }
     }
 }
