@@ -11,5 +11,10 @@ namespace POO1WITHDOTNET.Models
         public abstract string Nombre { get; set; }
         
         public abstract string salvarElMundo();
+
+        public string SalvarLaTierra()
+        {
+            return $"{Nombre} ha salvado la tierra.";
+        }
     }
 }
