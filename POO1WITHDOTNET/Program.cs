@@ -37,4 +37,7 @@ Console.WriteLine(resultSuperPoderes);
 
 string accionAntiHeroe = wolverine.RealizarAccionDeAntiHeroe("Ataca la policia");
 Console.WriteLine(accionAntiHeroe);
+
+string resultGeneric = wolverine.salvarElMundo();
+Console.WriteLine(resultGeneric);
 public record SuperHeroeRecord(int Id, string Nombre, string IdentidadSecreta);
