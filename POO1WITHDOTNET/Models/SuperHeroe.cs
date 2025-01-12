@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POO1WITHDOTNET.Models
 {
-    internal class SuperHeroe
+    internal class SuperHeroe : Heroe
     {
         public int Id { get; set; }
         public string Nombre
@@ -53,6 +53,11 @@ namespace POO1WITHDOTNET.Models
             }
 
             return stringBuilder.ToString();
+        }
+
+        public override string salvarElMundo()
+        {
+            return $"{NombreEIdentidadSecreta} ha salvado el mundo.";
         }
     }
 }
