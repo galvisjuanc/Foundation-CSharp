@@ -14,7 +14,7 @@ poderVolar.Nivel = NivelPoder.NivelUno;
 
 var superFuerza = new SuperPoder();
 superFuerza.Nombre = "SuperFuerza";
-superFuerza.Descripcion = "Extremadamente fuerte. Destroza todo.";
+superFuerza.Descripcion = "Extremadamente fuerte. Destroza absolutamente todo.";
 superFuerza.Nivel = NivelPoder.NivelDos;
 
 var regeneracion = new SuperPoder();
