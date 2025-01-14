@@ -43,4 +43,5 @@ Console.WriteLine(resultGeneric);
 
 string resultNonAbstract = wolverine.SalvarLaTierra();
 Console.WriteLine(resultNonAbstract);
+
 public record SuperHeroeRecord(int Id, string Nombre, string IdentidadSecreta);
