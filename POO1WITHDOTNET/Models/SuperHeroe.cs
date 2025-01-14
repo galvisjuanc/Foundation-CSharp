@@ -59,5 +59,10 @@ namespace POO1WITHDOTNET.Models
         {
             return $"{NombreEIdentidadSecreta} ha salvado el mundo.";
         }
+
+        public override string SalvarLaTierra()
+        {
+            return $"El SuperHeroe {NombreEIdentidadSecreta} ha salvado la tierra.";
+        }
     }
 }
