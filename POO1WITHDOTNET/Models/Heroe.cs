@@ -12,7 +12,7 @@ namespace POO1WITHDOTNET.Models
         
         public abstract string salvarElMundo();
 
-        public string SalvarLaTierra()
+        public virtual string SalvarLaTierra()
         {
             return $"{Nombre} ha salvado la tierra.";
         }
