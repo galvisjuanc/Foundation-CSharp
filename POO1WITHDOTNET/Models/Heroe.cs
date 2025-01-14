@@ -14,7 +14,7 @@ namespace POO1WITHDOTNET.Models
 
         public virtual string SalvarLaTierra()
         {
-            return $"{Nombre} ha salvado la tierra.";
+            return $"El Heroe {Nombre} ha salvado la tierra.";
         }
     }
 }
