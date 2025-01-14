@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace POO1WITHDOTNET.Models
 {
-    internal class SuperHeroe
+    internal class SuperHeroe : Heroe
     {
         public int Id { get; set; }
-        public string Nombre
+        public override string Nombre
         {
             get {return _Nombre;}
             set { _Nombre = value.Trim(); }
@@ -53,6 +53,16 @@ namespace POO1WITHDOTNET.Models
             }
 
             return stringBuilder.ToString();
+        }
+
+        public override string salvarElMundo()
+        {
+            return $"{NombreEIdentidadSecreta} ha salvado el mundo.";
+        }
+
+        public override string SalvarLaTierra()
+        {
+            return $"El SuperHeroe {NombreEIdentidadSecreta} ha salvado la tierra.";
         }
     }
 }
