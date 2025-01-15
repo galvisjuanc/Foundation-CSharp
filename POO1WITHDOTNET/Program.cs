@@ -1,11 +1,14 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using POO1WITHDOTNET;
 using POO1WITHDOTNET.Models;
 
 SuperHeroeRecord superHeroeRecord = new(1, "Superman", "Clark Kent");
 SuperHeroeRecord superHeroeRecord2 = new(1, "Superman", "Clark Kent");
 
 Console.WriteLine(superHeroeRecord == superHeroeRecord2);
+
+var imprimirinfo = new ImprimirInfo();
 
 var poderVolar = new SuperPoder();
 poderVolar.Nombre = "Volar";
@@ -27,6 +30,8 @@ wolverine.Id = 5;
 wolverine.Nombre = "Wolverine";
 wolverine.IdentidadSecreta = "Logan";
 wolverine.PuedeVolar = false;
+
+imprimirinfo.ImprimirSuperHeroe(wolverine);
 
 List<SuperPoder> poderesWolverine = new List<SuperPoder>();
 poderesWolverine.Add(superFuerza);
