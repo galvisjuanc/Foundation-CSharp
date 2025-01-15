@@ -22,7 +22,7 @@ superFuerza.Nivel = NivelPoder.NivelDos;
 
 var regeneracion = new SuperPoder();
 regeneracion.Nombre = "Regeneracion";
-regeneracion.Descripcion = "No sufrir daños permanentes";
+regeneracion.Descripcion = "Recuperar el cuerpo";
 regeneracion.Nivel = NivelPoder.NivelTres;
 
 var wolverine = new AntiHeroe();
