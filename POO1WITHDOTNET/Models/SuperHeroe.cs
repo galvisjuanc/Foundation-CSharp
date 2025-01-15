@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using POO1WITHDOTNET.Interfaces;
 
 namespace POO1WITHDOTNET.Models
 {
-    internal class SuperHeroe : Heroe
+    internal class SuperHeroe : Heroe, ISuperHeroe
     {
         public int Id { get; set; }
         public override string Nombre
