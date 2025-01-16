@@ -33,7 +33,7 @@ wolverine.PuedeVolar = false;
 
 imprimirinfo.ImprimirSuperHeroe(wolverine);
 
-List<SuperPoder> poderesWolverine = new List<SuperPoder>();
+List<SuperPoder> poderesWolverine = new();
 poderesWolverine.Add(superFuerza);
 poderesWolverine.Add(regeneracion);
 wolverine.SuperPoderes = poderesWolverine;
