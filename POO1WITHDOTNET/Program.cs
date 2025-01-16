@@ -10,10 +10,12 @@ Console.WriteLine(superHeroeRecord == superHeroeRecord2);
 
 var imprimirinfo = new ImprimirInfo();
 
-var poderVolar = new SuperPoder();
-poderVolar.Nombre = "Volar";
-poderVolar.Descripcion = "Capacidad para volar y planear en el aire.";
-poderVolar.Nivel = NivelPoder.NivelUno;
+var poderVolar = new SuperPoder
+{
+    Nombre = "Volar",
+    Descripcion = "Capacidad para volar y planear en el aire.",
+    Nivel = NivelPoder.NivelUno
+};
 
 var superFuerza = new SuperPoder();
 superFuerza.Nombre = "SuperFuerza";
