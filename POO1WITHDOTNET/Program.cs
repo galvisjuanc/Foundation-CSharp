@@ -12,7 +12,7 @@ var imprimirinfo = new ImprimirInfo();
 
 var poderVolar = new SuperPoder();
 poderVolar.Nombre = "Volar";
-poderVolar.Descripcion = "Capacidad para volar y planear en el aire";
+poderVolar.Descripcion = "Capacidad para volar y planear en el aire.";
 poderVolar.Nivel = NivelPoder.NivelUno;
 
 var superFuerza = new SuperPoder();
