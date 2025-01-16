@@ -29,11 +29,13 @@ var regeneracion = new SuperPoder
     Nivel = NivelPoder.NivelTres
 };
 
-var wolverine = new AntiHeroe();
-wolverine.Id = 5;
-wolverine.Nombre = "Wolverine";
-wolverine.IdentidadSecreta = "Logan";
-wolverine.PuedeVolar = false;
+var wolverine = new AntiHeroe
+{
+    Id = 5,
+    Nombre = "Wolverine",
+    IdentidadSecreta = "Logan",
+    PuedeVolar = false
+};
 
 imprimirinfo.ImprimirSuperHeroe(wolverine);
 
