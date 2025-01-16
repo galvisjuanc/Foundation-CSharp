@@ -20,10 +20,12 @@ superFuerza.Nombre = "SuperFuerza";
 superFuerza.Descripcion = "Extremadamente fuerte. Destroza absolutamente todo.";
 superFuerza.Nivel = NivelPoder.NivelDos;
 
-var regeneracion = new SuperPoder();
-regeneracion.Nombre = "Regeneracion";
-regeneracion.Descripcion = "Recuperar el cuerpo";
-regeneracion.Nivel = NivelPoder.NivelTres;
+var regeneracion = new SuperPoder
+{
+    Nombre = "Regeneracion",
+    Descripcion = "Recuperar el cuerpo",
+    Nivel = NivelPoder.NivelTres
+};
 
 var wolverine = new AntiHeroe();
 wolverine.Id = 5;
