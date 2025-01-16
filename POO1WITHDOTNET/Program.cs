@@ -10,20 +10,24 @@ Console.WriteLine(superHeroeRecord == superHeroeRecord2);
 
 var imprimirinfo = new ImprimirInfo();
 
-var poderVolar = new SuperPoder();
-poderVolar.Nombre = "Volar";
-poderVolar.Descripcion = "Capacidad para volar y planear en el aire.";
-poderVolar.Nivel = NivelPoder.NivelUno;
+var poderVolar = new SuperPoder
+{
+    Nombre = "Volar",
+    Descripcion = "Capacidad para volar y planear en el aire.",
+    Nivel = NivelPoder.NivelUno
+};
 
 var superFuerza = new SuperPoder();
 superFuerza.Nombre = "SuperFuerza";
 superFuerza.Descripcion = "Extremadamente fuerte. Destroza absolutamente todo.";
 superFuerza.Nivel = NivelPoder.NivelDos;
 
-var regeneracion = new SuperPoder();
-regeneracion.Nombre = "Regeneracion";
-regeneracion.Descripcion = "Recuperar el cuerpo";
-regeneracion.Nivel = NivelPoder.NivelTres;
+var regeneracion = new SuperPoder
+{
+    Nombre = "Regeneracion",
+    Descripcion = "Recuperar el cuerpo",
+    Nivel = NivelPoder.NivelTres
+};
 
 var wolverine = new AntiHeroe();
 wolverine.Id = 5;
