@@ -54,6 +54,10 @@ List<SuperPoder> poderesSuperman = new ()
     poderVolar
 };
 
+superman.SuperPoderes = poderesSuperman;
+string resultSuperPoderSuperman = superman.UsarPoderesSuper();
+Console.WriteLine(resultSuperPoderSuperman);
+
 List<SuperPoder> poderesWolverine = new()
 {
     superFuerza,
