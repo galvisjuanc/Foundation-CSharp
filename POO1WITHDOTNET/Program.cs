@@ -29,6 +29,14 @@ var regeneracion = new SuperPoder
     Nivel = NivelPoder.NivelTres
 };
 
+var superman = new SuperHeroe
+{
+    Id = 1,
+    Nombre = "Superman",
+    IdentidadSecreta = "Clark Kent",
+    PuedeVolar = true
+};
+
 var wolverine = new AntiHeroe
 {
     Id = 5,
