@@ -45,6 +45,7 @@ var wolverine = new AntiHeroe
     PuedeVolar = false
 };
 
+imprimirinfo.ImprimirSuperHeroe(superman);
 imprimirinfo.ImprimirSuperHeroe(wolverine);
 
 List<SuperPoder> poderesWolverine = new()
