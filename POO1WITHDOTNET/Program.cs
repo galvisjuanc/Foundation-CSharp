@@ -48,6 +48,12 @@ var wolverine = new AntiHeroe
 imprimirinfo.ImprimirSuperHeroe(superman);
 imprimirinfo.ImprimirSuperHeroe(wolverine);
 
+List<SuperPoder> poderesSuperman = new ()
+{
+    superFuerza,
+    poderVolar
+};
+
 List<SuperPoder> poderesWolverine = new()
 {
     superFuerza,
