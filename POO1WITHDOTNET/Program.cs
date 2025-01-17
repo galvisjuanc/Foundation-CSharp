@@ -58,6 +58,9 @@ superman.SuperPoderes = poderesSuperman;
 string resultSuperPoderSuperman = superman.UsarPoderesSuper();
 Console.WriteLine(resultSuperPoderSuperman);
 
+string accionHeroe = superman.SalvarLaTierra();
+Console.WriteLine(accionHeroe);
+
 List<SuperPoder> poderesWolverine = new()
 {
     superFuerza,
