@@ -25,7 +25,7 @@ superFuerza.Nivel = NivelPoder.NivelDos;
 var regeneracion = new SuperPoder
 {
     Nombre = "Regeneracion",
-    Descripcion = "Recuperar el cuerpo",
+    Descripcion = "Recuperar el cuerpo sin dejar heridas",
     Nivel = NivelPoder.NivelTres
 };
 
