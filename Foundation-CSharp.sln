@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Runtime.CompilerServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POO1WITHDOTNET", "POO1WITHDOTNET\POO1WITHDOTNET.csproj", "{392F69ED-018F-45A0-97FF-5BD5BECD6DF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicLinq", "BasicLinq\BasicLinq.csproj", "{F56148A7-D2C8-497E-BA6A-00600A22D96D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -110,6 +112,10 @@ Global
 		{392F69ED-018F-45A0-97FF-5BD5BECD6DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{392F69ED-018F-45A0-97FF-5BD5BECD6DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{392F69ED-018F-45A0-97FF-5BD5BECD6DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56148A7-D2C8-497E-BA6A-00600A22D96D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56148A7-D2C8-497E-BA6A-00600A22D96D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56148A7-D2C8-497E-BA6A-00600A22D96D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56148A7-D2C8-497E-BA6A-00600A22D96D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
