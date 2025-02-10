@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
+using POO1WITHDOTNET;
 using POO1WITHDOTNET.Models;
 
 SuperHeroeRecord superHeroeRecord = new(1, "Superman", "Clark Kent");
@@ -7,30 +8,64 @@ SuperHeroeRecord superHeroeRecord2 = new(1, "Superman", "Clark Kent");
 
 Console.WriteLine(superHeroeRecord == superHeroeRecord2);
 
-var poderVolar = new SuperPoder();
-poderVolar.Nombre = "Volar";
-poderVolar.Descripcion = "Capacidad para volar y planear en el aire";
-poderVolar.Nivel = NivelPoder.NivelUno;
+var imprimirinfo = new ImprimirInfo();
+
+var poderVolar = new SuperPoder
+{
+    Nombre = "Volar",
+    Descripcion = "Capacidad para volar y planear en el aire.",
+    Nivel = NivelPoder.NivelUno
+};
 
 var superFuerza = new SuperPoder();
 superFuerza.Nombre = "SuperFuerza";
-superFuerza.Descripcion = "Extremadamente fuerte";
+superFuerza.Descripcion = "Extremadamente fuerte. Destroza todo.";
 superFuerza.Nivel = NivelPoder.NivelDos;
 
-var regeneracion = new SuperPoder();
-regeneracion.Nombre = "Regeneracion";
-regeneracion.Descripcion = "Habilidad para no sufrir daños permanentes";
-regeneracion.Nivel = NivelPoder.NivelTres;
+var regeneracion = new SuperPoder
+{
+    Nombre = "Regeneracion",
+    Descripcion = "Recuperar el cuerpo sin dejar heridas",
+    Nivel = NivelPoder.NivelTres
+};
 
-var wolverine = new AntiHeroe();
-wolverine.Id = 5;
-wolverine.Nombre = "Wolverine";
-wolverine.IdentidadSecreta = "Logan";
-wolverine.PuedeVolar = false;
+var superman = new SuperHeroe
+{
+    Id = 1,
+    Nombre = "Superman",
+    IdentidadSecreta = "Clark Kent",
+    PuedeVolar = true
+};
 
-List<SuperPoder> poderesWolverine = new List<SuperPoder>();
-poderesWolverine.Add(superFuerza);
-poderesWolverine.Add(regeneracion);
+var wolverine = new AntiHeroe
+{
+    Id = 5,
+    Nombre = "Wolverine",
+    IdentidadSecreta = "Logan",
+    PuedeVolar = false
+};
+
+imprimirinfo.ImprimirSuperHeroe(superman);
+imprimirinfo.ImprimirSuperHeroe(wolverine);
+
+List<SuperPoder> poderesSuperman = new ()
+{
+    superFuerza,
+    poderVolar
+};
+
+superman.SuperPoderes = poderesSuperman;
+string resultSuperPoderSuperman = superman.UsarPoderesSuper();
+Console.WriteLine(resultSuperPoderSuperman);
+
+string accionHeroe = superman.SalvarLaTierra();
+Console.WriteLine(accionHeroe);
+
+List<SuperPoder> poderesWolverine = new()
+{
+    superFuerza,
+    regeneracion
+};
 wolverine.SuperPoderes = poderesWolverine;
 string resultSuperPoderes = wolverine.UsarPoderesSuper();
 Console.WriteLine(resultSuperPoderes);
