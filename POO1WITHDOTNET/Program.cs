@@ -70,7 +70,7 @@ wolverine.SuperPoderes = poderesWolverine;
 string resultSuperPoderes = wolverine.UsarPoderesSuper();
 Console.WriteLine(resultSuperPoderes);
 
-string accionAntiHeroe = wolverine.RealizarAccionDeAntiHeroe("Ataca la policia sin vergüenza alguna");
+string accionAntiHeroe = wolverine.RealizarAccionDeAntiHeroe("Ataca la policia sin vergüenza algunacd");
 Console.WriteLine(accionAntiHeroe);
 
 string resultGeneric = wolverine.salvarElMundo();
