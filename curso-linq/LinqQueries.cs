@@ -15,7 +15,7 @@ namespace curso_linq
             using (StreamReader reader = new StreamReader("books.json"))
             {
                 string json = reader.ReadToEnd();
-                this.librosCollection = System.Text.Json.JsonSerializer.Deserialize<List<Book>>(json, new System.Text.Json.JsonSerializerOptions() {PropertyNameCaseInsensitive = true});
+                this.librosCollection = System.Text.Json.JsonSerializer.Deserialize<List<Book>>(json, new System.Text.Json.JsonSerializerOptions() {PropertyNameCaseInsensitive = true})!;
             }
         }
     }
