@@ -8,5 +8,6 @@ namespace curso_linq
 {
     internal class LinqQueries
     {
+        public LinqQueries() { }
     }
 }
