@@ -8,9 +8,9 @@ ImprimirValores(queries.TodaLaColeccion());
 
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {
-    Console.WriteLine("{0, -70}, {1, 7}, {2, 11}\n", "Titulo", "N. Paginas", "Fecha publicacion");
+    Console.WriteLine("{0, -60} {1, 15} {2, 15}\n", "Titulo", "N. Paginas", "Fecha publicacion");
     foreach (var itemBook in listdelibros)
     {
-        Console.WriteLine("{0, -70}, {1, 7}, {2, 11}", itemBook.Title, itemBook.PageCount,itemBook.PublishedDate);
+        Console.WriteLine("{0, -60} {1, 15} {2, 15}", itemBook.Title, itemBook.PageCount,itemBook.PublishedDate.ToShortDateString());
     }
 }
