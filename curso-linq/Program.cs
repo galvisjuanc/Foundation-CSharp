@@ -2,9 +2,9 @@
 
 using curso_linq;
 
-Console.WriteLine("Hello, World!");
-
 LinqQueries queries = new LinqQueries();
+
+ImprimirValores(queries.TodaLaColeccion());
 
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {
