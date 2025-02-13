@@ -2,7 +2,7 @@
 
 using curso_linq;
 
-LinqQueries queries = new LinqQueries();
+var queries = new LinqQueries();
 
 ImprimirValores(queries.TodaLaColeccion());
 
