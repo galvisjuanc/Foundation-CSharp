@@ -18,5 +18,10 @@ namespace curso_linq
                 this.librosCollection = System.Text.Json.JsonSerializer.Deserialize<List<Book>>(json, new System.Text.Json.JsonSerializerOptions() {PropertyNameCaseInsensitive = true})!;
             }
         }
+
+        public IEnumerable<Book> TodaLaColeccion()
+        {
+            return librosCollection;
+        }
     }
 }
