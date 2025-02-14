@@ -4,7 +4,7 @@ using curso_linq;
 
 var queries = new LinqQueries();
 
-ImprimirValores(queries.TodaLaColeccion());
+//ImprimirValores(queries.TodaLaColeccion());
 
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {
@@ -15,4 +15,6 @@ void ImprimirValores(IEnumerable<Book> listdelibros)
     }
 }
 
-ImprimirValores(queries.LibrosDespuesdel2000());
+//ImprimirValores(queries.LibrosDespuesdel2000());
+
+ImprimirValores(queries.LibrosConMasde250PagConPalabrasInAction());
