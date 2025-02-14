@@ -24,7 +24,10 @@ namespace curso_linq
 
         public IEnumerable<Book> LibrosDespuesdel2000()
         {
-            return librosCollection.Where(p => p.PublishedDate.Year > 2000);
+            // extension method
+            // return librosCollection.Where(p => p.PublishedDate.Year > 2000);
+
+            return from l in librosCollection where l.PublishedDate.Year > 2000 select l;
         }
     }
 }
