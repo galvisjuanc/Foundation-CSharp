@@ -32,7 +32,9 @@ namespace curso_linq
 
         public IEnumerable<Book> LibrosConMasde250PagConPalabrasInAction()
         {
-            return librosCollection.Where(p => p.PageCount > 250 && p.Title.Contains("in Action"));
+            // extension method
+            //return librosCollection.Where(p => p.PageCount > 250 && p.Title.Contains("in Action"));
+            return from l in librosCollection where l.PageCount > 250 && l.Title.Contains("in Action") select l;
         }
     }
 }
