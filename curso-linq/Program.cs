@@ -14,3 +14,5 @@ void ImprimirValores(IEnumerable<Book> listdelibros)
         Console.WriteLine("{0, -60} {1, 15} {2, 15}", itemBook.Title, itemBook.PageCount,itemBook.PublishedDate.ToShortDateString());
     }
 }
+
+ImprimirValores(queries.LibrosDespuesdel2000());
