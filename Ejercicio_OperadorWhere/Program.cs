@@ -34,6 +34,13 @@ foreach (var animal in animales)
     Console.WriteLine($"Nombre: {animal.Nombre}, Color: {animal.Color}");
 }
 
+Console.WriteLine("--Tercer metodo--");
+IEnumerable<Animal> greenAnimalsWithVowelNameStart = animales.Where(animal => animal.Color == "Verde" && "AEIOUaeiou".Contains(animal.Nombre[0])).AsEnumerable();
+
+if (greenAnimalsWithVowelNameStart.Any())
+    foreach (var animal in greenAnimalsWithVowelNameStart)
+        Console.WriteLine($"Nombre: {animal.Nombre}, Color: {animal.Color}");
+
 public class Animal
 {
     public string Nombre { get; set; }
