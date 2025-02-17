@@ -23,6 +23,12 @@ List<Animal> result = animales.Where(x => x.Color.ToLower().Equals("verde") && v
 if(result.Any())
     result.ForEach(x => Console.WriteLine(x.Nombre));
 
+Console.WriteLine("--Segundo metodo--");
+
+animales = (from animal in animales
+    where animal.Color == "Verde" && "AEIOUaeiou".Contains(animal.Nombre[0])
+    select animal).ToList();
+
 public class Animal
 {
     public string Nombre { get; set; }
