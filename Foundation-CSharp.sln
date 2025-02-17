@@ -44,6 +44,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicLinq", "BasicLinq\Basi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "curso-linq", "curso-linq\curso-linq.csproj", "{BDD3F918-BB99-457F-98A0-44C129CB0093}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_OperadorWhere", "Ejercicio_OperadorWhere\Ejercicio_OperadorWhere.csproj", "{FF5E4555-46CA-4D8D-9A09-5C15FB2D5F59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -122,6 +124,10 @@ Global
 		{BDD3F918-BB99-457F-98A0-44C129CB0093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BDD3F918-BB99-457F-98A0-44C129CB0093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BDD3F918-BB99-457F-98A0-44C129CB0093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF5E4555-46CA-4D8D-9A09-5C15FB2D5F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF5E4555-46CA-4D8D-9A09-5C15FB2D5F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF5E4555-46CA-4D8D-9A09-5C15FB2D5F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF5E4555-46CA-4D8D-9A09-5C15FB2D5F59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
