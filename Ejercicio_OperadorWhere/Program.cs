@@ -15,6 +15,8 @@ animales.Add(new Animal() { Nombre = "Gallina", Color = "Blanco" });
 // Escribe tu código aquí
 // filtra todos los animales que sean de color verde que su nombre inicie con una vocal
 
+List<char> vocales = new List<char>() { 'a', 'e', 'i', 'o', 'u' };
+
 public class Animal
 {
     public string Nombre { get; set; }
