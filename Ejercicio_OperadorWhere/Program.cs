@@ -29,6 +29,11 @@ animales = (from animal in animales
     where animal.Color == "Verde" && "AEIOUaeiou".Contains(animal.Nombre[0])
     select animal).ToList();
 
+foreach (var animal in animales)
+{
+    Console.WriteLine($"Nombre: {animal.Nombre}, Color: {animal.Color}");
+}
+
 public class Animal
 {
     public string Nombre { get; set; }
