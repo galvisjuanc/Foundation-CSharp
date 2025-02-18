@@ -11,9 +11,6 @@ animales.Add(new Animal() { Nombre = "Sapo", Color = "Verde" });
 animales.Add(new Animal() { Nombre = "Camaleon", Color = "Verde" });
 animales.Add(new Animal() { Nombre = "Gallina", Color = "Blanco" });
 
-// Escribe tu código aquí
-// filtra todos los animales que sean de color verde que su nombre inicie con una vocal
-
 List<char> vocales = new List<char>() { 'a', 'e', 'i', 'o', 'u' };
 
 List<Animal> result = animales.Where(x => x.Color.ToLower().Equals("verde") && vocales.Contains(x.Nombre.ToLower()[0]))
