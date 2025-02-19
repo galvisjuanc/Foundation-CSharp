@@ -18,7 +18,7 @@ var animales = new List<Animal>
 
 var vocales = new List<char>() { 'a', 'e', 'i', 'o', 'u' };
 
-List<Animal> result = animales.Where(x => x.Color.ToLower().Equals("verde") && vocales.Contains(x.Nombre.ToLower()[0]))
+var result = animales.Where(x => x.Color.ToLower().Equals("verde") && vocales.Contains(x.Nombre.ToLower()[0]))
     .ToList();
 
 if(result.Any())
