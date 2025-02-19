@@ -1,18 +1,20 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-var animales = new List<Animal>();
-animales.Add(new Animal() { Nombre = "Hormiga", Color = "Rojo" });
-animales.Add(new Animal() { Nombre = "Lobo", Color = "Gris" });
-animales.Add(new Animal() { Nombre = "Elefante", Color = "Gris" });
-animales.Add(new Animal() { Nombre = "Pantegra", Color = "Negro" });
-animales.Add(new Animal() { Nombre = "Gato", Color = "Negro" });
-animales.Add(new Animal() { Nombre = "Iguana", Color = "Verde" });
-animales.Add(new Animal() { Nombre = "Orangutan", Color = "Verde" });
-animales.Add(new Animal() { Nombre = "Sardina", Color = "Azul" });
-animales.Add(new Animal() { Nombre = "Caiman", Color = "Amarillo" });
-animales.Add(new Animal() { Nombre = "Sapo", Color = "Verde" });
-animales.Add(new Animal() { Nombre = "Camaleon", Color = "Verde" });
-animales.Add(new Animal() { Nombre = "Gallina", Color = "Blanco" });
+var animales = new List<Animal>
+{
+    new Animal() { Nombre = "Hormiga", Color = "Rojo" },
+    new Animal() { Nombre = "Lobo", Color = "Gris" },
+    new Animal() { Nombre = "Elefante", Color = "Gris" },
+    new Animal() { Nombre = "Pantegra", Color = "Negro" },
+    new Animal() { Nombre = "Gato", Color = "Negro" },
+    new Animal() { Nombre = "Iguana", Color = "Verde" },
+    new Animal() { Nombre = "Orangutan", Color = "Verde" },
+    new Animal() { Nombre = "Sardina", Color = "Azul" },
+    new Animal() { Nombre = "Caiman", Color = "Amarillo" },
+    new Animal() { Nombre = "Sapo", Color = "Verde" },
+    new Animal() { Nombre = "Camaleon", Color = "Verde" },
+    new Animal() { Nombre = "Gallina", Color = "Blanco" }
+};
 
 List<char> vocales = new List<char>() { 'a', 'e', 'i', 'o', 'u' };
 
