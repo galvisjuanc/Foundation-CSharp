@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-var animales = new List<Animal>
+﻿var animales = new List<Animal>
 {
     new Animal() { Name = "Hormiga", Color = "Rojo" },
     new Animal() { Name = "Lobo", Color = "Gris" },
