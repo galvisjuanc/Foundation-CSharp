@@ -36,5 +36,10 @@ namespace curso_linq
             //return librosCollection.Where(p => p.PageCount > 250 && p.Title.Contains("in Action"));
             return from l in librosCollection where l.PageCount > 250 && l.Title.Contains("in Action") select l;
         }
+
+        public bool TodosLosLibrosTienenStatus()
+        {
+            return librosCollection.All(p => p.Status != string.Empty);
+        }
     }
 }
