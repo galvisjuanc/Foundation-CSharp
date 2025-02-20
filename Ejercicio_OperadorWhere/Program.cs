@@ -25,7 +25,6 @@ if(result.Any())
     result.ForEach(x => Console.WriteLine(x.Name));
 
 Console.WriteLine("--Segundo metodo--");
-
 animales = (from animal in animales
     where animal.Color == "Verde" && "AEIOUaeiou".Contains(animal.Name[0])
     select animal).ToList();
