@@ -18,3 +18,6 @@ void ImprimirValores(IEnumerable<Book> listdelibros)
 //ImprimirValores(queries.LibrosDespuesdel2000());
 
 ImprimirValores(queries.LibrosConMasde250PagConPalabrasInAction());
+
+//Todos los libros tienen status
+Console.WriteLine($"Todos los libros tienen status? - {queries.TodosLosLibrosTienenStatus()}");
