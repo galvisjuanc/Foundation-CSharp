@@ -21,8 +21,7 @@ var vocales = new List<char>() { 'a', 'e', 'i', 'o', 'u' };
 var result = animales.Where(x => x.Color.ToLower().Equals("verde") && vocales.Contains(x.Name.ToLower()[0]))
     .ToList();
 
-if(result.Any())
-    result.ForEach(x => Console.WriteLine(x.Name));
+result.ForEach(x => Console.WriteLine(x.Name));
 
 Console.WriteLine("--Segundo metodo--");
 animales = (from animal in animales
