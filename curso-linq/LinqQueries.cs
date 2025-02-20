@@ -41,5 +41,10 @@ namespace curso_linq
         {
             return librosCollection.All(p => p.Status != string.Empty);
         }
+
+        public bool SiAlgunLibroFuePublicadoEn2005()
+        {
+            return librosCollection.Any(p => p.PublishedDate.Year == 2005);
+        }
     }
 }
