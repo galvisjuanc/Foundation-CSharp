@@ -27,3 +27,4 @@ Console.WriteLine($"Algún libro fue publicado en 2005? - {queries.SiAlgunLibroF
 
 // Libros de python
 ImprimirValores(queries.LibrosdePython());
+ImprimirValores(queries.BuscarLibrosConAndroid());
