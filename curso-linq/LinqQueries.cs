@@ -52,9 +52,9 @@ namespace curso_linq
             return librosCollection.Where(p => p.Categories.Contains("Python"));
         }
 
-        public IEnumerable<Book> BuscarLibrosConPython()
+        public IEnumerable<Book> BuscarLibrosConAndroid()
         {
-            return from l in librosCollection where l.Categories.Contains("Python") select l;
+            return from l in librosCollection where l.Categories.Contains("Android") select l;
         }
     }
 }
