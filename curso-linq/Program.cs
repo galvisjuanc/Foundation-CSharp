@@ -1,6 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-using curso_linq;
+﻿using curso_linq;
 
 var queries = new LinqQueries();
 
