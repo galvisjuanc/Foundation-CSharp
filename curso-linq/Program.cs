@@ -28,3 +28,5 @@ ImprimirValores(queries.LibrosdePython());
 
 // Libros de android con LINQ
 ImprimirValores(queries.BuscarLibrosConAndroid());
+
+ImprimirValores(queries.LibrosOrdenadorPorNombreJava());
