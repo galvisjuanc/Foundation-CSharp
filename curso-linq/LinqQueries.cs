@@ -66,5 +66,15 @@ namespace curso_linq
         {
             return from l in librosCollection where l.Categories.Contains("Java") orderby l.Title select l;
         }
+
+        public IEnumerable<Book> LibrosConMasDe450PaginasYOrdenadosDescendentemente()
+        {
+            return librosCollection.Where(p => p.PageCount > 450).OrderByDescending(p => p.PageCount);
+        }
+
+        public IEnumerable<Book> LibrosConMasDe450PaginasYOrdenadosDescendentementeLINQ()
+        {
+            return from l in librosCollection where l.PageCount > 450 orderby l.PageCount descending select l;
+        }
     }
 }
