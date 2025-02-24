@@ -56,5 +56,10 @@ namespace curso_linq
         {
             return from l in librosCollection where l.Categories.Contains("Android") select l;
         }
+
+        public IEnumerable<Book> LibrosOrdenadorPorNombreJava()
+        {
+            return librosCollection.Where(p => p.Categories.Contains("Java")).OrderBy(p => p.Title);
+        }
     }
 }
