@@ -47,6 +47,13 @@ foreach (var animal in listAnimalsOrderByName)
     Console.WriteLine($"Name: {animal.Name}, Color: {animal.Color}");
 }
 
+Console.WriteLine("--Quinto metodo--");
+var listAnimalsOrderByNameLinq = (from a in animalesOrdenados orderby a.Name select a);
+foreach (var animalO in listAnimalsOrderByNameLinq)
+{
+    Console.WriteLine($"Name: {animalO.Name}, Color: {animalO.Color}");
+}
+
 public class Animal
 {
     public string Name { get; set; }
