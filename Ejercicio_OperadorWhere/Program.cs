@@ -14,6 +14,8 @@
     new Animal() { Name = "Gallina", Color = "Blanco" }
 };
 
+var animalesOrdenados = animales;
+
 var vocales = new List<char>() { 'a', 'e', 'i', 'o', 'u' };
 
 var result = animales.Where(x => x.Color.ToLower().Equals("verde") && vocales.Contains(x.Name.ToLower()[0]))
@@ -37,6 +39,13 @@ IEnumerable<Animal> greenAnimalsWithVowelNameStart = animales.Where(animal => an
 if (greenAnimalsWithVowelNameStart.Any())
     foreach (var animal in greenAnimalsWithVowelNameStart)
         Console.WriteLine($"Name: {animal.Name}, Color: {animal.Color}");
+
+Console.WriteLine("--Cuarto metodo--");
+var listAnimalsOrderByName = animalesOrdenados.OrderBy(p => p.Name);
+foreach (var animal in listAnimalsOrderByName)
+{
+    Console.WriteLine($"Name: {animal.Name}, Color: {animal.Color}");
+}
 
 public class Animal
 {
