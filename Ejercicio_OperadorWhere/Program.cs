@@ -48,7 +48,7 @@ foreach (var animal in listAnimalsOrderByName)
 }
 
 Console.WriteLine("--Quinto metodo--");
-var listAnimalsOrderByNameLinq = (from a in animalesOrdenados orderby a.Name select a);
+var listAnimalsOrderByNameLinq = (from a in animalesOrdenados orderby a.Name descending select a);
 foreach (var animalO in listAnimalsOrderByNameLinq)
 {
     Console.WriteLine($"Name: {animalO.Name}, Color: {animalO.Color}");
