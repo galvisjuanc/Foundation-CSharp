@@ -38,4 +38,4 @@ Console.WriteLine("\nOrdenando libros de forma descendente pór numero de pagina
 ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentemente());
 
 Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas usando LINQ");
-ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentementeLINQ());
+ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentementeLinq());

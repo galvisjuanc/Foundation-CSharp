@@ -72,7 +72,7 @@ namespace curso_linq
             return librosCollection.Where(p => p.PageCount > 450).OrderByDescending(p => p.PageCount);
         }
 
-        public IEnumerable<Book> LibrosConMasDe450PaginasYOrdenadosDescendentementeLINQ()
+        public IEnumerable<Book> LibrosConMasDe450PaginasYOrdenadosDescendentementeLinq()
         {
             return from l in librosCollection where l.PageCount > 450 orderby l.PageCount descending select l;
         }
