@@ -76,5 +76,13 @@ namespace curso_linq
         {
             return from l in librosCollection where l.PageCount > 450 orderby l.PageCount descending select l;
         }
+
+        public IEnumerable<Book> TresPrimerosLibrosOrdenadosPorFecha()
+        {
+            return librosCollection
+                .Where(p => p.Categories.Contains("Java"))
+                .OrderByDescending(p => p.PublishedDate)
+                .Take(4);
+        }
     }
 }
