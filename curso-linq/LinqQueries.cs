@@ -82,7 +82,9 @@ namespace curso_linq
             return librosCollection
                 .Where(p => p.Categories.Contains("Java"))
                 .OrderBy(p => p.PublishedDate)
-                .TakeLast(4);
+                .TakeLast(3);
         }
+
+
     }
 }
