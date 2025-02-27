@@ -85,6 +85,13 @@ namespace curso_linq
                 .TakeLast(3);
         }
 
+        public IEnumerable<Book> TresYCuartoLibroDeMasDe400Pag()
+        {
+            return librosCollection
+                .Where(p => p.PageCount > 400)
+                .Take(4)
+                .Skip(2);
+        }
 
     }
 }
