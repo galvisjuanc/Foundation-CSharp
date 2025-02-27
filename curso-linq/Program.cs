@@ -42,3 +42,5 @@ ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentementeLinq()
 
 Console.WriteLine("\nOrdenando libros usando Take y Skip");
 ImprimirValores(queries.TresPrimerosLibrosOrdenadosPorFecha());
+
+ImprimirValores(queries.TresYCuartoLibroDeMasDe400Pag());
