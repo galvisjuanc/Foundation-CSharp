@@ -31,7 +31,7 @@ ImprimirValores(queries.BuscarLibrosConAndroid());
 
 ImprimirValores(queries.LibrosOrdenadosPorNombreJava());
 
-Console.WriteLine("\nOtra forma usando query linq");
+Console.WriteLine("\nOtra forma usando linq");
 ImprimirValores(queries.LibrosOrdenadosPorNombreJavaLinq());
 
 Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas");
