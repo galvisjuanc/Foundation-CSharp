@@ -21,7 +21,7 @@ ImprimirValores(queries.LibrosConMasde250PagConPalabrasInAction());
 Console.WriteLine($"Todos los libros tienen status? - {queries.TodosLosLibrosTienenStatus()}");
 
 //Todos los libros tienen status
-Console.WriteLine($"Algún libro fue publicado en 2005? - {queries.SiAlgunLibroFuePublicadoEn2005()}");
+Console.WriteLine($"Algún libro fue publicado en el año 2005? - {queries.SiAlgunLibroFuePublicadoEn2005()}");
 
 // Libros de python
 ImprimirValores(queries.LibrosdePython());
