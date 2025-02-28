@@ -40,7 +40,7 @@ ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentemente());
 Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas usando LINQ");
 ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentementeLinq());
 
-Console.WriteLine("\nOrdenando libros usando Take y Skip");
+Console.WriteLine("\nOrdenando libros con Take y Skip");
 ImprimirValores(queries.TresPrimerosLibrosOrdenadosPorFecha());
 
 Console.WriteLine("\nOrdenando libros con Take y Skip - Segundo Ejemplo");
