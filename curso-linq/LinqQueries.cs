@@ -103,7 +103,7 @@ namespace curso_linq
 
         public long CantidadDeLibrosEntre200y500Pag()
         {
-            return librosCollection.Where(p => p.PageCount >= 200 && p.PageCount <= 500).LongCount();
+            return librosCollection.LongCount(p => p.PageCount >= 200 && p.PageCount <= 500);
         }
 
     }
