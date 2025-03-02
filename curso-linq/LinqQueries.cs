@@ -94,11 +94,11 @@ namespace curso_linq
                 .Skip(2);
         }
 
-        public void TresPrimerosLibrosDeLaColeccion()
+        public IEnumerable<Book> TresPrimerosLibrosDeLaColeccion()
         {
-            librosCollection
+            return librosCollection
                 .Take(3)
-                .Select(p=> new {Title = p.Title, PCount = p.PageCount})
+                .Select(p => new Book() { Title = p.Title, PageCount = p.PageCount });
         }
 
     }
