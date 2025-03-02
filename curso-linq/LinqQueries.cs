@@ -105,6 +105,5 @@ namespace curso_linq
         {
             return librosCollection.LongCount(p => p.PageCount >= 200 && p.PageCount <= 500);
         }
-
     }
 }
