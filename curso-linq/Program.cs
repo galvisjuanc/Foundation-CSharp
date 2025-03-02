@@ -47,3 +47,6 @@ ImprimirValores(queries.TresYCuartoLibroDeMasDe400Pag());
 
 Console.WriteLine("\nImprimir valores dinámicos");
 ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
+
+Console.WriteLine("\nCantidad de libros entre 200 y 500 Paginas");
+Console.WriteLine(queries.CantidadDeLibrosEntre200y500Pag());
