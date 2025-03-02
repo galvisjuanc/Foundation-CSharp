@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.JavaScript;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -91,6 +92,13 @@ namespace curso_linq
                 .Where(p => p.PageCount > 400)
                 .Take(4)
                 .Skip(2);
+        }
+
+        public void TresPrimerosLibrosDeLaColeccion()
+        {
+            librosCollection
+                .Take(3)
+                .Select(p=> new {Title = p.Title, PCount = p.PageCount})
         }
 
     }
