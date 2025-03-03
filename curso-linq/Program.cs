@@ -53,4 +53,4 @@ Console.WriteLine(queries.CantidadDeLibrosEntre200y500Pag());
 
 Console.WriteLine($"Fecha de publicacion menor: {queries.FechaDePublicacionMenor()}");
 
-Console.WriteLine($"El libro con el mayor número de páginas es de: {queries.NumeroDePaginaMayorDeLibro()} paginas");
+Console.WriteLine($"El libro con el mayor número de paginas es de: {queries.NumeroDePaginaMayorDeLibro()}.");
