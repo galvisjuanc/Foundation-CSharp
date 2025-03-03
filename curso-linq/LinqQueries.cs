@@ -110,5 +110,10 @@ namespace curso_linq
         {
             return librosCollection.Min(p => p.PublishedDate);
         }
+
+        public int NumeroDePaginaMayorDeLibro()
+        {
+            return librosCollection.Max(p => p.PageCount);
+        }
     }
 }
