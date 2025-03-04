@@ -23,15 +23,15 @@ Console.WriteLine($"Todos los libros tienen status? - {queries.TodosLosLibrosTie
 Console.WriteLine($"Algún libro fue publicado en el año 2005? - {queries.SiAlgunLibroFuePublicadoEn2005()}");
 
 // Libros de python
-ImprimirValores(queries.LibrosdePython());
+//ImprimirValores(queries.LibrosdePython());
 
 // Libros de android con LINQ
-ImprimirValores(queries.BuscarLibrosConAndroid());
+//ImprimirValores(queries.BuscarLibrosConAndroid());
 
-ImprimirValores(queries.LibrosOrdenadosPorNombreJava());
+//ImprimirValores(queries.LibrosOrdenadosPorNombreJava());
 
-Console.WriteLine("\nOtra forma usando linq");
-ImprimirValores(queries.LibrosOrdenadosPorNombreJavaLinq());
+//Console.WriteLine("\nOtra forma usando linq");
+//ImprimirValores(queries.LibrosOrdenadosPorNombreJavaLinq());
 
 Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas");
 ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentemente());
