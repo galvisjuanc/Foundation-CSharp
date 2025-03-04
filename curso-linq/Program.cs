@@ -33,17 +33,17 @@ Console.WriteLine($"Algún libro fue publicado en el año 2005? - {queries.SiAlg
 //Console.WriteLine("\nOtra forma usando linq");
 //ImprimirValores(queries.LibrosOrdenadosPorNombreJavaLinq());
 
-Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas");
-ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentemente());
+//Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas");
+//ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentemente());
 
-Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas usando LINQ");
-ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentementeLinq());
+//Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas usando LINQ");
+//ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentementeLinq());
 
-Console.WriteLine("\nOrdenando libros con Take y Skip - Primer Ejemplo");
-ImprimirValores(queries.TresPrimerosLibrosOrdenadosPorFecha());
+//Console.WriteLine("\nOrdenando libros con Take y Skip - Primer Ejemplo");
+//ImprimirValores(queries.TresPrimerosLibrosOrdenadosPorFecha());
 
-Console.WriteLine("\nOrdenando libros con Take y Skip - Segundo Ejemplo");
-ImprimirValores(queries.TresYCuartoLibroDeMasDe400Pag());
+//Console.WriteLine("\nOrdenando libros con Take y Skip - Segundo Ejemplo");
+//ImprimirValores(queries.TresYCuartoLibroDeMasDe400Pag());
 
 Console.WriteLine("\nImprimir valores dinámicos");
 ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
