@@ -120,5 +120,10 @@ namespace curso_linq
         {
             return librosCollection.Where(p => p.PageCount > 0).MinBy(p => p.PageCount);
         }
+
+        public Book LibroConFechaMasReciente()
+        {
+            return librosCollection.MaxBy(p => p.PublishedDate);
+        }
     }
 }
