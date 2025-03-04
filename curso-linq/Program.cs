@@ -57,3 +57,6 @@ Console.WriteLine($"El libro con el mayor número de paginas es de: {queries.Num
 
 var libroMenorPag = queries.LibroConMenorNumeroDePaginas();
 Console.WriteLine($"El libro con menor numero de páginas es: {libroMenorPag.Title} - con un total de: {libroMenorPag.PageCount} paginas");
+
+var libroFechaMayor = queries.LibroConFechaMasReciente();
+Console.WriteLine($"El libro con la fecha más reciente es: {libroFechaMayor.Title} - con una fecha de: {libroFechaMayor.PublishedDate.ToShortDateString()}");
