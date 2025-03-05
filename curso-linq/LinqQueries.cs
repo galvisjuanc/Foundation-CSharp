@@ -145,5 +145,8 @@ namespace curso_linq
                     return TitulosLibros;
                 });
         }
+
+        public string TitulosSeparadosGuion(Func<Book, bool> where)
+            => string.Join(" - ", this.librosCollection.Where(where).Select(x => x.Title));
     }
 }
