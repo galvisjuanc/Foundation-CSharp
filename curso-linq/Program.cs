@@ -45,11 +45,11 @@ Console.WriteLine($"Algún libro fue publicado en el año 2005? - {queries.SiAlg
 //Console.WriteLine("\nOrdenando libros con Take y Skip - Segundo Ejemplo");
 //ImprimirValores(queries.TresYCuartoLibroDeMasDe400Pag());
 
-Console.WriteLine("\nImprimir valores dinámicos");
-ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
+//Console.WriteLine("\nImprimir valores dinámicos");
+//ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
 
-Console.WriteLine("\nCantidad de libros entre 200 y 500 Paginas");
-Console.WriteLine(queries.CantidadDeLibrosEntre200y500Pag());
+//Console.WriteLine("\nCantidad de libros entre 200 y 500 Paginas");
+//Console.WriteLine(queries.CantidadDeLibrosEntre200y500Pag());
 
 Console.WriteLine($"Esta es la fecha de publicacion menor: {queries.FechaDePublicacionMenor()}");
 
@@ -60,3 +60,6 @@ Console.WriteLine($"El libro con menor numero de páginas es: {libroMenorPag.Tit
 
 var libroFechaMayor = queries.LibroConFechaMasReciente();
 Console.WriteLine($"El libro con la fecha más reciente es: {libroFechaMayor.Title} - con una fecha de: {libroFechaMayor.PublishedDate.ToShortDateString()}");
+
+var cuentaLibrosPaginasDe0a500 = queries.SumaDeTodasLasPaginasLibrosEntre0y500();
+Console.WriteLine($"Suma total de paginas {cuentaLibrosPaginasDe0a500}");
