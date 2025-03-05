@@ -125,5 +125,10 @@ namespace curso_linq
         {
             return librosCollection.MaxBy(p => p.PublishedDate);
         }
+
+        public int SumaDeTodasLasPaginasLibrosEntre0y500()
+        {
+            return librosCollection.Where(p => p.PageCount >= 0 && p.PageCount <= 500).Sum(p => p.PageCount);
+        }
     }
 }
