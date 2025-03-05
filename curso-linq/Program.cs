@@ -63,3 +63,6 @@ Console.WriteLine($"El libro con la fecha más reciente es: {libroFechaMayor.Tit
 
 var cuentaLibrosPaginasDe0a500 = queries.SumaDeTodasLasPaginasLibrosEntre0y500();
 Console.WriteLine($"Suma total de paginas {cuentaLibrosPaginasDe0a500}");
+
+var librosPublicados2015 = queries.TitulosDeLibrosDespuesDel2015Concatenados();
+Console.WriteLine(librosPublicados2015);
