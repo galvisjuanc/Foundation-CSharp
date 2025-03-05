@@ -148,5 +148,11 @@ namespace curso_linq
 
         public string TitulosSeparadosGuion(Func<Book, bool> where)
             => string.Join(" - ", this.librosCollection.Where(where).Select(x => x.Title));
+
+        public string TitulosSeparadosGuionV2(Func<Book, bool> where)
+        {
+            return this.librosCollection.Where(where).Aggregate("",
+                (acum, next) => acum += (!string.IsNullOrEmpty(acum) ? $" - {next.Title}" : next.Title));
+        }
     }
 }
