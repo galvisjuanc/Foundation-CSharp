@@ -154,5 +154,10 @@ namespace curso_linq
             return this.librosCollection.Where(where).Aggregate("",
                 (acum, next) => acum += (!string.IsNullOrEmpty(acum) ? $" - {next.Title}" : next.Title));
         }
+
+        public double PromedioCaracteresTitulo()
+        {
+            return librosCollection.Average(o => o.Title.Length);
+        }
     }
 }
