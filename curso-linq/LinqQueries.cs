@@ -159,5 +159,11 @@ namespace curso_linq
         {
             return librosCollection.Average(o => o.Title.Length);
         }
+
+        public void PromedioNumeroPaginasMayoresACero()
+        {
+            var avg = librosCollection.Where(b => b.PageCount > 0).Average(b => b.PageCount);
+            Console.WriteLine($"El promedio de número de páginas que son mayores a cero: {avg}");
+        }
     }
 }
