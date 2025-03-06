@@ -75,3 +75,5 @@ var titulos2 = queries.TitulosSeparadosGuionV2(condicionWhereFunc);
 
 Console.WriteLine(titulos1);
 Console.WriteLine(titulos2);
+
+Console.WriteLine($"Promedio de caracteres de los titulos: {queries.PromedioCaracteresTitulo()}");
