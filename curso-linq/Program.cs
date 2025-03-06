@@ -77,3 +77,5 @@ Console.WriteLine(titulos1);
 Console.WriteLine(titulos2);
 
 Console.WriteLine($"Promedio de caracteres de los titulos: {queries.PromedioCaracteresTitulo()}");
+
+queries.PromedioNumeroPaginasMayoresACero();
