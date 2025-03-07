@@ -13,6 +13,20 @@ void ImprimirValores(IEnumerable<Book> listdelibros)
     }
 }
 
+void ImprimirGrupo(IEnumerable<IGrouping<int, Book>> ListadeLibros)
+{
+    foreach (var grupo in ListadeLibros)
+    {
+        Console.WriteLine("");
+        Console.WriteLine($"Grupo: { grupo.Key}");
+        Console.WriteLine("{0, -60} {1, 15} {2, 15}\n", "Titulo", "N. Paginas", "Fecha publicacion");
+        foreach (var itemBook in grupo)
+        {
+            Console.WriteLine("{0, -60} {1, 15} {2, 15}", itemBook.Title, itemBook.PageCount, itemBook.PublishedDate.ToShortDateString());
+        }
+    }
+}
+
 //ImprimirValores(queries.LibrosDespuesdel2000());
 //ImprimirValores(queries.LibrosConMasde250PagConPalabrasInAction());
 
