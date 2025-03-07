@@ -165,5 +165,10 @@ namespace curso_linq
             var avg = librosCollection.Where(b => b.PageCount > 0).Average(b => b.PageCount);
             Console.WriteLine($"El promedio de número de páginas que son mayores a cero: {avg}");
         }
+
+        public IEnumerable<IGrouping<int, Book>> LibrosDespuesdel2000AgrupadosPorAño()
+        {
+            return librosCollection.Where(p => p.PublishedDate.Year >= 2000).GroupBy(p => p.PublishedDate.Year);
+        }
     }
 }
