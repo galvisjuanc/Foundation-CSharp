@@ -13,14 +13,14 @@ void ImprimirValores(IEnumerable<Book> listdelibros)
     }
 }
 
-ImprimirValores(queries.LibrosDespuesdel2000());
-ImprimirValores(queries.LibrosConMasde250PagConPalabrasInAction());
+//ImprimirValores(queries.LibrosDespuesdel2000());
+//ImprimirValores(queries.LibrosConMasde250PagConPalabrasInAction());
 
 //Todos los libros tienen status
-Console.WriteLine($"Todos los libros tienen status? - {queries.TodosLosLibrosTienenStatus()}");
+//Console.WriteLine($"Todos los libros tienen status? - {queries.TodosLosLibrosTienenStatus()}");
 
 //Todos los libros tienen status
-Console.WriteLine($"Algún libro fue publicado en el año 2005? - {queries.SiAlgunLibroFuePublicadoEn2005()}");
+//Console.WriteLine($"Algún libro fue publicado en el año 2005? - {queries.SiAlgunLibroFuePublicadoEn2005()}");
 
 // Libros de python
 //ImprimirValores(queries.LibrosdePython());
@@ -79,3 +79,4 @@ Console.WriteLine(titulos2);
 Console.WriteLine($"Promedio de caracteres de los titulos: {queries.PromedioCaracteresTitulo()}");
 
 queries.PromedioNumeroPaginasMayoresACero();
+
