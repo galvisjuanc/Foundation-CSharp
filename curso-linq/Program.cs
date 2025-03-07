@@ -83,14 +83,14 @@ void ImprimirGrupo(IEnumerable<IGrouping<int, Book>> ListadeLibros)
 //var librosPublicados2015 = queries.TitulosDeLibrosDespuesDel2015Concatenados();
 //Console.WriteLine(librosPublicados2015);
 
-Console.WriteLine("Otro metodo usado");
-Func<Book, bool> condicionWhereFunc = (x => x.PublishedDate.Year > 2005 && x.Title != string.Empty);
+//Console.WriteLine("Otro metodo usado");
+//Func<Book, bool> condicionWhereFunc = (x => x.PublishedDate.Year > 2005 && x.Title != string.Empty);
 
-var titulos1 = queries.TitulosSeparadosGuion(condicionWhereFunc);
-var titulos2 = queries.TitulosSeparadosGuionV2(condicionWhereFunc);
+//var titulos1 = queries.TitulosSeparadosGuion(condicionWhereFunc);
+//var titulos2 = queries.TitulosSeparadosGuionV2(condicionWhereFunc);
 
-Console.WriteLine(titulos1);
-Console.WriteLine(titulos2);
+//Console.WriteLine(titulos1);
+//Console.WriteLine(titulos2);
 
 Console.WriteLine($"Promedio de caracteres de los titulos: {queries.PromedioCaracteresTitulo()}");
 
