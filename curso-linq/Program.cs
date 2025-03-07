@@ -4,6 +4,8 @@ var queries = new LinqQueries();
 
 //ImprimirValores(queries.TodaLaColeccion());
 
+ImprimirGrupo(queries.LibrosDespuesdel2000AgrupadosPorAño());
+
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {
     Console.WriteLine("{0, -60} {1, 15} {2, 15}\n", "Titulo", "N. Paginas", "Fecha publicacion");
