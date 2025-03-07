@@ -58,8 +58,8 @@ Console.WriteLine($"Algún libro fue publicado en el año 2005? - {queries.SiAlg
 //var libroMenorPag = queries.LibroConMenorNumeroDePaginas();
 //Console.WriteLine($"El libro con menor numero de páginas es: {libroMenorPag.Title} - con un total de: {libroMenorPag.PageCount} paginas");
 
-var libroFechaMayor = queries.LibroConFechaMasReciente();
-Console.WriteLine($"El libro con la fecha más reciente es: {libroFechaMayor.Title} - con una fecha de: {libroFechaMayor.PublishedDate.ToShortDateString()}");
+//var libroFechaMayor = queries.LibroConFechaMasReciente();
+//Console.WriteLine($"El libro con la fecha más reciente es: {libroFechaMayor.Title} - con una fecha de: {libroFechaMayor.PublishedDate.ToShortDateString()}");
 
 var cuentaLibrosPaginasDe0a500 = queries.SumaDeTodasLasPaginasLibrosEntre0y500();
 Console.WriteLine($"Suma total de paginas {cuentaLibrosPaginasDe0a500}");
