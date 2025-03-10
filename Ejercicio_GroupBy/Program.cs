@@ -14,7 +14,7 @@ animales.Add(new Animal() { Nombre = "Gallina", Color = "Blanco" });
 
 // Escribe tu código aquí
 // Retorna los datos de la colleción Animales agrupada por color 
-IEnumerable<IGrouping<string, Animal>> animalesGroup = animales.GroupBy(p => p.Color);
+var animalesGroup = animales.GroupBy(p => p.Color);
 
 foreach (var grupo in animalesGroup)
 {
