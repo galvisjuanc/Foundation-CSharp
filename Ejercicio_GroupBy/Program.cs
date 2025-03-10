@@ -28,7 +28,6 @@ foreach (var grupo in animalesGroup)
 }
 
 
-
 public class Animal
 {
     public string Nombre { get; set; }
