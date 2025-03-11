@@ -105,3 +105,6 @@ Console.WriteLine($"Promedio de caracteres de los titulos: {queries.PromedioCara
 
 queries.PromedioNumeroPaginasMayoresACero();
 
+var diccionarioLookup = queries.DiccionariosDeLibrosPorLetra();
+ImprimirDiccionario(diccionarioLookup, 'A');
+
