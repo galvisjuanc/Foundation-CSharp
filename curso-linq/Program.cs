@@ -107,4 +107,5 @@ queries.PromedioNumeroPaginasMayoresACero();
 
 var diccionarioLookup = queries.DiccionariosDeLibrosPorLetra();
 ImprimirDiccionario(diccionarioLookup, 'A');
+ImprimirDiccionario(diccionarioLookup, 'C');
 
