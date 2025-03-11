@@ -14,9 +14,9 @@ animales.Add(new Animal() { Nombre = "Gallina", Color = "Blanco" });
 
 // Escribe tu código aquí
 // Retorna los datos de la colleción Animales agrupada por color 
-var animalesGroup = animales.GroupBy(p => p.Color);
+var animalsGroup = animales.GroupBy(p => p.Color);
 
-foreach (var group in animalesGroup)
+foreach (var group in animalsGroup)
 {
     Console.WriteLine("");
     Console.WriteLine($"Grupo: {group.Key}");
