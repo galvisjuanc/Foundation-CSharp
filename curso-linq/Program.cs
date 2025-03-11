@@ -101,11 +101,12 @@ void ImprimirDiccionario(ILookup<char, Book> list, char letra)
 //Console.WriteLine(titulos1);
 //Console.WriteLine(titulos2);
 
-Console.WriteLine($"Promedio de caracteres de los titulos: {queries.PromedioCaracteresTitulo()}");
+//Console.WriteLine($"Promedio de caracteres de los titulos: {queries.PromedioCaracteresTitulo()}");
 
-queries.PromedioNumeroPaginasMayoresACero();
+//queries.PromedioNumeroPaginasMayoresACero();
 
 var diccionarioLookup = queries.DiccionariosDeLibrosPorLetra();
 ImprimirDiccionario(diccionarioLookup, 'A');
+ImprimirDiccionario(diccionarioLookup, 'B');
 ImprimirDiccionario(diccionarioLookup, 'C');
 
