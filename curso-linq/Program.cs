@@ -4,7 +4,7 @@ var queries = new LinqQueries();
 
 //ImprimirValores(queries.TodaLaColeccion());
 
-ImprimirGrupo(queries.LibrosDespuesdel2000AgrupadosPorAño());
+//ImprimirGrupo(queries.LibrosDespuesdel2000AgrupadosPorAño());
 
 void ImprimirValores(IEnumerable<Book> listdelibros)
 {
@@ -26,6 +26,15 @@ void ImprimirGrupo(IEnumerable<IGrouping<int, Book>> ListadeLibros)
         {
             Console.WriteLine("{0, -60} {1, 15} {2, 15}", itemBook.Title, itemBook.PageCount, itemBook.PublishedDate.ToShortDateString());
         }
+    }
+}
+
+void ImprimirDiccionario(ILookup<char, Book> list, char letra)
+{
+    Console.WriteLine("{0, -60} {1, 15} {2, 15}\n", "Titulo", "N. Paginas", "Fecha publicacion");
+    foreach (var itemD in list[letra])
+    {
+        Console.WriteLine("{0, -60} {1, 15} {2, 15}", itemD.Title, itemD.PageCount, itemD.PublishedDate.ToShortDateString());
     }
 }
 
