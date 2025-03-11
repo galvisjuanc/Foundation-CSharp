@@ -16,12 +16,12 @@ animales.Add(new Animal() { Nombre = "Gallina", Color = "Blanco" });
 // Retorna los datos de la colleción Animales agrupada por color 
 var animalesGroup = animales.GroupBy(p => p.Color);
 
-foreach (var grupo in animalesGroup)
+foreach (var group in animalesGroup)
 {
     Console.WriteLine("");
-    Console.WriteLine($"Grupo: {grupo.Key}");
+    Console.WriteLine($"Grupo: {group.Key}");
     Console.WriteLine("{0,-60}{1,15}", "Name", "Color");
-    foreach (var item in grupo)
+    foreach (var item in group)
     {
         Console.WriteLine("{0,-60}{1,15}", item.Nombre, item.Color);
     }
