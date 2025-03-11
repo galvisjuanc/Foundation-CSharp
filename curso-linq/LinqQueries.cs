@@ -170,5 +170,10 @@ namespace curso_linq
         {
             return librosCollection.Where(p => p.PublishedDate.Year >= 2000).GroupBy(p => p.PublishedDate.Year);
         }
+
+        public ILookup<char, Book> DiccionariosDeLibrosPorLetra()
+        {
+            return librosCollection.ToLookup(p => p.Title[0], p => p);
+        }
     }
 }
