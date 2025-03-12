@@ -46,6 +46,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "curso-linq", "curso-linq\cu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_OperadorWhere", "Ejercicio_OperadorWhere\Ejercicio_OperadorWhere.csproj", "{FF5E4555-46CA-4D8D-9A09-5C15FB2D5F59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_GroupBy", "Ejercicio_GroupBy\Ejercicio_GroupBy.csproj", "{D87633A6-69AD-424A-AD8D-04F534492753}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +130,10 @@ Global
 		{FF5E4555-46CA-4D8D-9A09-5C15FB2D5F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF5E4555-46CA-4D8D-9A09-5C15FB2D5F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF5E4555-46CA-4D8D-9A09-5C15FB2D5F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D87633A6-69AD-424A-AD8D-04F534492753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D87633A6-69AD-424A-AD8D-04F534492753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D87633A6-69AD-424A-AD8D-04F534492753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D87633A6-69AD-424A-AD8D-04F534492753}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
