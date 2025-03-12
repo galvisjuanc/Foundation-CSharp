@@ -184,5 +184,15 @@ namespace curso_linq
 
             return LibrosDespuesDel2005.Join(LibrosConMasde500Pag, p=> p.Title, x=> x.Title, (p,x) => p);
         }
+
+        public IEnumerable<Book> BooksAfter2005AndPagesGreaterThan500(IEnumerable<Book> books)
+        {
+
+            return (from x in (from b in books where b.PublishedDate.Year >= 2005 select b)
+                join
+                    y in (from book in books where book.PageCount > 500 select book) on x.Title equals y.Title
+                select x);
+
+        } 
     }
 }
