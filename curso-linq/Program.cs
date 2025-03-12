@@ -110,3 +110,5 @@ ImprimirDiccionario(diccionarioLookup, 'A');
 ImprimirDiccionario(diccionarioLookup, 'B');
 ImprimirDiccionario(diccionarioLookup, 'C');
 
+ImprimirValores(queries.LibrosDespuesDel2005Conmasde500Pags());
+
