@@ -180,9 +180,9 @@ namespace curso_linq
         {
             var LibrosDespuesDel2005 = librosCollection.Where(p => p.PublishedDate.Year > 2005);
 
-            var LibrosConMasde400Pag = librosCollection.Where(p => p.PageCount > 500);
+            var LibrosConMasde500Pag = librosCollection.Where(p => p.PageCount > 500);
 
-            return LibrosDespuesDel2005;
+            return LibrosDespuesDel2005.Join(LibrosConMasde500Pag, p=> p.Title, x=> x.Title, (p,x) => p);
         }
     }
 }
