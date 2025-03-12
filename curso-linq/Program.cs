@@ -106,8 +106,8 @@ void ImprimirDiccionario(ILookup<char, Book> list, char letra)
 //queries.PromedioNumeroPaginasMayoresACero();
 
 var diccionarioLookup = queries.DiccionariosDeLibrosPorLetra();
-ImprimirDiccionario(diccionarioLookup, 'A');
-ImprimirDiccionario(diccionarioLookup, 'B');
+//<ImprimirDiccionario(diccionarioLookup, 'A');
+//ImprimirDiccionario(diccionarioLookup, 'B');
 ImprimirDiccionario(diccionarioLookup, 'C');
 
 ImprimirValores(queries.LibrosDespuesDel2005Conmasde500Pags());
