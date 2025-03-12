@@ -175,5 +175,12 @@ namespace curso_linq
         {
             return librosCollection.ToLookup(p => p.Title[0], p => p);
         }
+
+        public IEnumerable<Book> LibrosDespuesDel2005Conmasde500Pags()
+        {
+            var LibrosDespuesDel2005 = librosCollection.Where(p => p.PublishedDate.Year > 2005);
+
+            return LibrosDespuesDel2005;
+        }
     }
 }
