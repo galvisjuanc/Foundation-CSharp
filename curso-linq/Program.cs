@@ -2,7 +2,7 @@
 
 var queries = new LinqQueries();
 
-//ImprimirValores(queries.TodaLaColeccion());
+ImprimirValores(queries.TodaLaColeccion());
 
 //ImprimirGrupo(queries.LibrosDespuesdel2000AgrupadosPorAño());
 
