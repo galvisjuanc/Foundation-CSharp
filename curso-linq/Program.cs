@@ -89,8 +89,8 @@ void ImprimirDiccionario(ILookup<char, Book> list, char letra)
 //var cuentaLibrosPaginasDe0a500 = queries.SumaDeTodasLasPaginasLibrosEntre0y500();
 //Console.WriteLine($"Suma total de paginas {cuentaLibrosPaginasDe0a500}");
 
-//var librosPublicados2015 = queries.TitulosDeLibrosDespuesDel2015Concatenados();
-//Console.WriteLine(librosPublicados2015);
+var librosPublicados2015 = queries.TitulosDeLibrosDespuesDel2015Concatenados();
+Console.WriteLine(librosPublicados2015);
 
 //Console.WriteLine("Otro metodo usado");
 //Func<Book, bool> condicionWhereFunc = (x => x.PublishedDate.Year > 2005 && x.Title != string.Empty);
