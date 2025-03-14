@@ -48,7 +48,7 @@ Console.WriteLine($"Todos los libros tienen status? - {queries.TodosLosLibrosTie
 Console.WriteLine($"Algún libro fue publicado en el año 2005? - {queries.SiAlgunLibroFuePublicadoEn2005()}");
 
 // Libros de python
-//ImprimirValores(queries.LibrosdePython());
+ImprimirValores(queries.LibrosdePython());
 
 // Libros de android con LINQ
 //ImprimirValores(queries.BuscarLibrosConAndroid());
