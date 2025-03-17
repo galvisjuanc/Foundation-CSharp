@@ -51,7 +51,7 @@ Console.WriteLine($"Algún libro fue publicado en el año 2005? - {queries.SiAlg
 ImprimirValores(queries.LibrosdePython());
 
 // Libros de android con LINQ
-//ImprimirValores(queries.BuscarLibrosConAndroid());
+ImprimirValores(queries.BuscarLibrosConAndroid());
 
 //ImprimirValores(queries.LibrosOrdenadosPorNombreJava());
 
