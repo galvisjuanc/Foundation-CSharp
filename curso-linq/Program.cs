@@ -59,7 +59,7 @@ Console.WriteLine("\nOtra forma usando linq");
 ImprimirValores(queries.LibrosOrdenadosPorNombreJavaLinq());
 
 Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas");
-//ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentemente());
+ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentemente());
 
 //Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas usando LINQ");
 //ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentementeLinq());
