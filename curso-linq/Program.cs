@@ -61,8 +61,8 @@ ImprimirValores(queries.LibrosOrdenadosPorNombreJavaLinq());
 Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas");
 ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentemente());
 
-//Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas usando LINQ");
-//ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentementeLinq());
+Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas usando LINQ");
+ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentementeLinq());
 
 //Console.WriteLine("\nOrdenando libros con Take y Skip - Primer Ejemplo");
 //ImprimirValores(queries.TresPrimerosLibrosOrdenadosPorFecha());
