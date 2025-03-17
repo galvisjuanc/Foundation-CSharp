@@ -53,7 +53,7 @@ ImprimirValores(queries.LibrosdePython());
 // Libros de android con LINQ
 ImprimirValores(queries.BuscarLibrosConAndroid());
 
-//ImprimirValores(queries.LibrosOrdenadosPorNombreJava());
+ImprimirValores(queries.LibrosOrdenadosPorNombreJava());
 
 //Console.WriteLine("\nOtra forma usando linq");
 //ImprimirValores(queries.LibrosOrdenadosPorNombreJavaLinq());
