@@ -56,7 +56,7 @@ ImprimirValores(queries.BuscarLibrosConAndroid());
 ImprimirValores(queries.LibrosOrdenadosPorNombreJava());
 
 //Console.WriteLine("\nOtra forma usando linq");
-//ImprimirValores(queries.LibrosOrdenadosPorNombreJavaLinq());
+ImprimirValores(queries.LibrosOrdenadosPorNombreJavaLinq());
 
 //Console.WriteLine("\nOrdenando libros de forma descendente pór numero de paginas");
 //ImprimirValores(queries.LibrosConMasDe450PaginasYOrdenadosDescendentemente());
