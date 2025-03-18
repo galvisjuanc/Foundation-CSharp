@@ -70,7 +70,7 @@ ImprimirValores(queries.TresPrimerosLibrosOrdenadosPorFecha());
 Console.WriteLine("\nOrdenando libros con Take y Skip - Segundo Ejemplo");
 ImprimirValores(queries.TresYCuartoLibroDeMasDe400Pag());
 
-//Console.WriteLine("\nImprimir valores dinámicos");
+Console.WriteLine("\nImprimir valores dinámicos");
 //ImprimirValores(queries.TresPrimerosLibrosDeLaColeccion());
 
 //Console.WriteLine("\nCantidad de libros entre 200 y 500 Paginas");
